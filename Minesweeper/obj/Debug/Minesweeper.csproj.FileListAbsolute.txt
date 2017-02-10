@@ -1,0 +1,10 @@
+c:\users\edvin\documents\visual studio 2015\Projects\Minesweeper\Minesweeper\bin\Debug\Minesweeper.exe.config
+c:\users\edvin\documents\visual studio 2015\Projects\Minesweeper\Minesweeper\obj\Debug\Minesweeper.csprojResolveAssemblyReference.cache
+c:\users\edvin\documents\visual studio 2015\Projects\Minesweeper\Minesweeper\obj\Debug\ProjektProgram.Form1.resources
+c:\users\edvin\documents\visual studio 2015\Projects\Minesweeper\Minesweeper\obj\Debug\Minesweeper.Properties.Resources.resources
+c:\users\edvin\documents\visual studio 2015\Projects\Minesweeper\Minesweeper\obj\Debug\Minesweeper.csproj.GenerateResource.Cache
+C:\Users\Edvin\documents\visual studio 2015\Projects\Minesweeper\Minesweeper\obj\Debug\ProjektProgram.Form2.resources
+C:\Users\Edvin\documents\visual studio 2015\Projects\Minesweeper\Minesweeper\bin\Debug\Minesweeper.exe
+C:\Users\Edvin\documents\visual studio 2015\Projects\Minesweeper\Minesweeper\bin\Debug\Minesweeper.pdb
+C:\Users\Edvin\documents\visual studio 2015\Projects\Minesweeper\Minesweeper\obj\Debug\Minesweeper.exe
+C:\Users\Edvin\documents\visual studio 2015\Projects\Minesweeper\Minesweeper\obj\Debug\Minesweeper.pdb
