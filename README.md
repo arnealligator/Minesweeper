@@ -1,2 +1,3 @@
 # Minesweeper
-Very bad game &lt;3
+
+Exe in bin>debug
