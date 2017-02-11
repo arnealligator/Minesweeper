@@ -20,11 +20,13 @@ namespace ProjektProgram
         bool markeraBomber = false;
         bool Win = false;
         int Antbombertext;
+       
 
 
         public Form1()
         {
             InitializeComponent();
+            
         }
 
         //??
@@ -141,6 +143,8 @@ namespace ProjektProgram
         //Metod för att hantera svårighetsgraden som valts
         public void startGame(int diff)
         {
+            label4.Visible = false;
+            Win = false;
             rensaPlan();
 
             if (diff == 1)
@@ -204,8 +208,8 @@ namespace ProjektProgram
 
 
             Antbombertext = Antbomber;
-            label1.Text = ("Tid: 0");
-            label2.Text = ("Bomber: " + Antbombertext.ToString());
+            label1.Text = ("Time: 0");
+            label2.Text = ("Bombs: " + Antbombertext.ToString());
             button1.Text = (":)");
 
             knappPlan = new Button[width, height];
@@ -290,8 +294,8 @@ namespace ProjektProgram
         {
             int antal = 0;
             tid++;
-            label1.Text = ("Tid: " + tid.ToString());
-            label2.Text = ("Bomber: " + Antbombertext.ToString());
+            label1.Text = ("Time: " + tid.ToString());
+            label2.Text = ("Bombs: " + Antbombertext.ToString());
 
             if (Antbombertext == 0)
             {
@@ -311,17 +315,24 @@ namespace ProjektProgram
             if (Antbombertext == 0 && (antal == (width * height) - Antbomber))
             {
                 Win = true;
+                timer1.Enabled = false;
             }
 
             if (Win)
             {
                 Controls.AddRange(new System.Windows.Forms.Control[] { label4, });
-                label4.Location = new System.Drawing.Point(Width / 2 - 50, Height / 2);
+                label4.Location = new System.Drawing.Point(Width / 2 - 50, Height / 2-20);
                 label4.Text = "You won!!";
 
                 rensaPlan();
                 label4.Show();
             }
+        }
+
+        //skräp
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
 
         //skräp
